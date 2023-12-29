@@ -12,7 +12,7 @@ import Meetteamsec from './components/Meetteamsec';
 import Thekongsec from './components/Thekongsec';
 import Slidersec from './components/Slidersec';
 import Backtotop from './components/Backtotop';
-import Preloader from './components/Preloader';
+
 
 function App() {
   const preloader = document.getElementById("preloader");
