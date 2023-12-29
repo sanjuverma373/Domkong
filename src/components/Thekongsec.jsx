@@ -22,16 +22,10 @@ import big8 from '../assets/images/big8.webp'
 import big9 from '../assets/images/big9.webp'
 import big10 from '../assets/images/big10.webp'
 import Slider from 'react-slick'
-// import $ from 'jquery'
+
 
 const TheKong = () => {
-  // $(function () {
-  //   $("#big-image img:eq(0)").nextAll().hide();
-  //   $(".small-images img").click(function (e) {
-  //     var index = $(this).index();
-  //     $("#big-image img").eq(index).show().siblings().hide();
-  //   });
-  // });
+
   var up_kong = {
     dots: false,
     arrows: false,
@@ -168,16 +162,6 @@ const TheKong = () => {
           <div id='big-image' className='d-flex  justify-content-center align-items-center mb-xl-5 pb-xl-5 position-relative z-1' data-aos="zoom-in" data-aos-duration="2000">
             <img className='width_md_100 big-image' src={kong} alt="kong" />
             <span className='kongselips position-absolute '></span>
-            {/* <img className='width_md_100 big_image' src={big2} alt="kong" /> */}
-            {/* <img className='width_md_100 big_image' src={big3} alt="kong" /> */}
-            {/* <img className='width_md_100 big_image' src={big4} alt="kong" /> */}
-            {/* <img className='width_md_100 big_image' src={big5} alt="kong" /> */}
-            {/* <img className='width_md_100 big_image' src={big6} alt="kong" /> */}
-            {/* <img className='width_md_100 big_image' src={big7} alt="kong" /> */}
-            {/* <img className='width_md_100 big_image' src={big8} alt="kong" /> */}
-            {/* <img className='width_md_100 big_image' src={big9} alt="kong" /> */}
-            {/* <img className='width_md_100 big_image' src={big10} alt="kong" /> */}
-            {/* <img className='width_md_100 big_image' src={big1} alt="kong" /> */}
             <div className="kong_ellipse"></div>
           </div>
         </div>
